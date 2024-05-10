@@ -1,0 +1,105 @@
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    color: black;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+#principal{
+    height: 1000px;
+    display: flex;
+    background-image: url(../calculator/2.jpg);
+}
+#main{
+    height: 650px;
+    width: 25%;
+    background-color:lightblue;
+    margin-top: 10%;
+    margin-left: 35%;
+    border-top: 5px solid rgb(18, 1, 1);
+    border-right: 5px solid rgb(18, 1, 1);
+    border-left: 5px solid rgb(18, 1, 1);
+    border-bottom: 5px solid rgb(18, 1, 1);
+    border-radius:5%;
+    border-style: double;
+    color: #fff;
+    -webkit-box-shadow: -6px 1px 29px 5px #000000; 
+    box-shadow: -6px 1px 29px 5px #000000;
+}
+#screens{
+    display: block;
+    width: 98%;
+    height: 150px;
+    margin-top: 12px;
+    text-align: right;
+    background-color:rgb(52, 47, 59);
+}
+#screen-1{
+    width: 100%;
+    height: 40%;
+    margin-top: 2%;
+    font-size: 30px;
+    color: black;
+    background-color: rgb(210, 133, 210);
+}
+#screen-2{
+    width: 100%;
+    height: 60%;
+    background-color: lightseagreen;
+    margin-top: 2%;
+    font-size: 30px;
+    color: #fff;
+}
+#keyboard{
+    width: 98%;
+    height: 450px;
+    display: grid;
+    margin-top: 15px;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    column-gap: 2px;
+}
+input{
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    font: bolder;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+#punto{
+  font-weight: 750;
+}
+.operators{
+    font-weight: bolder;
+    background-color: orange;
+}
+input:hover{
+    opacity: 0.5;
+}
+.point{
+    font-weight: bolder;
+}
+.num{
+    background-color:rgb(85, 85, 85);
+}
+.switch{
+    font-weight: bolder;
+    background-color: rgb(217, 93, 93);
+}
+.del{
+    font-weight: bolder;
+    background-color: rgb(123, 123, 223);
+}
+.equal{
+    font-weight: bolder;
+    background-color: rgb(185, 183, 196);
+}
+
+@media screen {
+    max-width{
+        max-width: 300px;
+    }
+}
